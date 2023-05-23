@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+	<title>Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<Form action="/action_page.html">
+<div class="wrapper">
+    <div class="title">
+      PLese fill in this form
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>Full Name: </label>
+          <input type="text" name="fname" placeholder="first name"><br>
+          <input type="text" name="lname" placeholder="last name">
+       </div>  
+       <div class="inputfield">
+          <label>Password: </label>
+          <input type="password"  class="input" placeholder="password">
+       </div>  
+      <div class="inputfield">
+          <label>Confirm Password: </label>
+          <input type="password" class="input" placeholder="confirm your password">
+       </div> 
+       <div class="inputfield">
+        <label for="birthday">Date of Birth: </label>
+        <input type="date" id="dob" name="dob">
+       </div>
+       <div class="inputfield">
+        <Label>Gender: </Label>
+        <input type="radio" id="html" name="fav_language" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="html" name="fav_language" value="female">
+         <label for="female">Female</label><br>
+       </div>
+        <div class="inputfield">
+          <label>Country:</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+              <option value="male">Liberia</option>
+              <option value="female">Ghana</option>
+              <option value="female">Ivory Coast</option>
+              <option value="female">Guinea</option>
+              <option value="female">Senegal</option>
+              <option value="female">Sierra Leone</option>
+            </select>
+          </div>
+       </div> 
+       <div>
+       </div>
+        <div class="inputfield">
+          <label>Email Address: </label>
+          <input type="email" required name="email" placeholder="email address">
+       </div> 
+      <div class="inputfield">
+          <label>Message: </label>
+          <textarea class="textarea"  maxlength="200" placeholder="type you message here"></textarea>
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Terms and Conditions</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Submit" class="btn">
+      </div>
+    </div>
+</div>	
+</Form>
+</body>
+</html>
